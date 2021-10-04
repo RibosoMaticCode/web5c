@@ -1,0 +1,379 @@
+/*
+  ##Device = Desktops
+  ##Screen = 1281px to higher resolution desktops
+            Computadoras de escritorio de 1281px a mayor resolución
+*/
+
+@media (min-width: 1281px) {
+  .block-big-text{
+    padding: 180px 0;
+  }
+}
+/*
+  ##Device = Laptops, Desktops
+  ##Screen = B/w 1025px to 1280px
+            Ancho entre 1025px a 1280px
+*/
+
+@media (min-width: 1025px) and (max-width: 1280px) {
+  /* MENU */
+  ul.nav-main li a{
+    writing-mode:initial;
+    transform:initial;
+    font-size: 1.1em;
+    text-shadow: 1px 1px 10px #000;
+  }
+  ul.nav-main li{
+    padding-left: 10px;
+    width: initial;
+    display: inline-block;
+    height: auto;
+  }
+  .block-big-text{
+    padding: 180px 0;
+  }
+  /* INTRO */
+  .block-intro{
+    font-size: 3.5em;
+    top: 25%;
+    right: 20%;
+    text-shadow: 1px 1px 10px #000;
+  }
+}
+
+/*
+  ##Device = Tablets, Ipads (portrait)
+            Retrato
+  ##Screen = B/w 768px to 1024px
+            Ancho entre 768px a 1024px
+*/
+
+/*@media (min-width: 768px) and (max-width: 1024px) { 
+  .block-initial{
+    background-position: right bottom;
+  }
+  .logo-top {
+    right: 5%!important;
+  }
+  .social-top{
+    bottom:20%;
+  }
+  .block-intro {
+    font-size: 4em;
+    top: 35%;
+    right: 5%;
+  }
+  .nosotros-text{
+    font-size: 1.2em;
+  }
+  .title-section{
+    font-size: 2em;
+  }
+  .block-links li a{
+    font-size: 1.4em;
+  }
+  .title-block h2{
+    font-size: 2.6em;
+  }
+  .title-block h1{
+    font-size: 3em;
+  }
+}
+*/
+/*
+  ##Device = Tablets, Ipads (landscape)
+            Paisaje
+  ##Screen = B/w 768px to 1024px
+            Ancho entre 768px a 1024px
+*/
+
+@media (min-width: 768px) and (max-width: 1024px){ /* HORIZONTAL */
+  /* IPHONE X, PIXEL 2 XL, REDMI NOTE 7 */
+  /* MENU */
+  ul.nav-main li a{
+    writing-mode:initial;
+    transform:initial;
+    font-size: .9em;
+    text-shadow: 1px 1px 10px #000;
+  }
+  ul.nav-main li{
+    padding-left: 10px;
+    width: initial;
+    display: inline-block;
+    height: auto;
+  }
+  /* INTRO */
+  .logo-original{
+    max-width: 100px!important;
+  }
+  .block-intro{
+    font-size: 2em;
+    top: 25%;
+    right: 20%;
+    text-shadow: 1px 1px 10px #000;
+  }
+  .social-top{
+    bottom: 5%;
+  }
+  /* SOCIAL */
+  .social.vertical li a i{
+    font-size: 1.2em;
+  }
+  .social.vertical li a {
+    width: 36px;
+    height: 36px;
+  }
+  /* SERVICIO */
+  .bg-servicio{
+    height: 400px;
+  }
+}
+
+/*
+  ##Device = Low Resolution Tablets, Mobiles (Landscape)
+            Tabletas de baja resolución, Móviles (Paisaje)
+  ##Screen = B/w 481px to 767px
+            Ancho en 481px a 767px
+*/
+
+@media (min-width: 481px) and (max-width: 767px) { /* VERTICAL */
+  /* INTRO */
+  .block-initial{
+    background-position: 80% bottom;
+  }
+  .block-initial{
+    height: 100vh;
+    min-height: initial;
+  }
+  .logo-original{
+    max-width: 80px!important;
+  }
+  .block-intro{
+    font-size: 2em;
+    top: 25%;
+    right: 20%;
+  }
+  .social-top{
+    bottom: 5%;
+  }
+  .title-section{
+    font-size: 2em;
+  }
+  /* MENU */
+  ul.nav-main li a{
+    writing-mode:initial;
+    transform:initial;
+    font-size: .9em;
+    text-shadow: 1px 1px 10px #000;
+  }
+  ul.nav-main li{
+    padding-left: 10px;
+    width: initial;
+    display: inline-block;
+    height: auto;
+  }
+  /* SOCIAL */
+  .social.vertical li a i{
+    font-size: 1.2em;
+  }
+  .social.vertical li a {
+    width: 36px;
+    height: 36px;
+  }
+  /* NOSOTROS */
+  .nosotros1{
+    height: 200px;
+  }
+  .diagonal1{
+    height: 150px;
+  }
+  .block-big-text{
+    font-size: 2em;
+  }
+  .nosotros-text{
+    font-size: 1.2em;
+    text-shadow: 1px 1px 10px #000;
+  }
+
+  /* SECCIONES */
+  .block-links li a{
+    font-size: 1.1em;
+  }
+  /* SERVICIOS */
+  .servicio-desc{
+    padding:20px;
+  }
+  .title-block h2{
+    font-size:1.8em;
+  }
+  .title-block h1{
+    font-size:2em;
+  }
+  .servicio-icon{
+    max-width: 80px!important;
+  }
+  .cloud-gray{
+    background-position-y: -35px;
+  }
+  /* FORM */
+  .cover-form{
+    padding: 40px 0;
+  }
+
+  .customers-logo img{
+    max-width: 100px;
+  }
+}
+
+/*
+  ##Device = Most of the Smartphones Mobiles (Portrait)
+            La mayoría de los teléfonos inteligentes móviles (retrato)
+  ##Screen = B/w 320px to 479px
+            Ancho en 320px a 479px
+*/
+
+@media (min-width: 320px) and (max-width: 480px) { /* VERTICAL MAS PEQUEÑOS */
+  .inner-content{
+    padding-right:10px!important;
+    padding-left:10px!important;
+  }
+  .servicio-head-height{
+    height:350px;
+  }
+  /* INTRO */
+  .block-initial{
+    height: 350px;
+    background-position: center bottom;
+    min-height: initial;
+  }
+  .logo-original{
+    max-width: 45px!important;
+  }
+  /*
+  .logo-white{
+    display: block!important;
+    max-width: 100px!important;
+  }*/
+  .logo-top{
+    right: 3%!important;
+    top: 20%;
+  }
+  .block-intro{
+    font-size: 1.8em;
+    top: 40%;
+    right: 20%;
+    text-align: center;
+  }
+  a.button{
+    font-size: 1em;
+    padding:2px 10px;
+    min-width: 100px;
+  }
+  .social-top{
+    bottom: 5%;
+  }
+  .cols-container{
+    display: initial;
+  }
+  .title-section{
+    font-size: 2em;
+  }
+  /* MENU */
+  ul.nav-main li a{
+    writing-mode:initial;
+    transform:initial;
+    font-size: .78em;
+    text-shadow: 1px 1px 10px #000;
+  }
+  ul.nav-main li{
+    padding-left: 5px;
+    width: initial;
+    display: inline-block;
+    height: auto;
+  }
+  /* SOCIAL */
+  .social.vertical li a i{
+    font-size: 1em;
+  }
+  .social.vertical li a {
+    width: 24px;
+    height: 24px;
+  }
+  /* NOSOTROS */
+  .nosotros1{
+    height: 200px;
+  }
+  .diagonal1{
+    height: 150px;
+  }
+  .nosotros2{
+    height: 70vh;
+  }
+  .block-big-text{
+    font-size: 2em;
+  }
+  .nosotros-text{
+    font-size: .7em;
+    text-shadow: 1px 1px 10px #000;
+    padding: 10px 0;
+    margin: 0!important;
+  }
+  .nosotros-title {
+    margin-top: 20px!important;
+    font-size: .9em;
+  }
+  /* SECCIONES */
+  .block-links{
+    padding: 5vh 10px;
+  }
+  .block-links li {
+    width: 100%;
+    margin: 15px 0;
+  }
+  .block-links li a{
+    font-size: 1.1em;
+    line-height: 18px;
+  }
+  /* SERVICIOS*/
+  .bg-servicio{
+    height: 50vh!important;
+  }
+  .title-block {
+    text-align: center;
+  }
+  .title-block h2{
+    font-size:1.8em;
+  }
+  .title-block h1{
+    font-size:2em;
+  }
+  .servicio-icon{
+    max-width: 80px!important;
+  }
+  .servicio-desc{
+    padding:20px;
+  }
+  .cloud-gray{
+    background-position-y: -35px;
+  }
+  /* GALLERY */
+  .inner-content-gallery{
+    overflow: hidden;
+  }
+  /* LOGOS */
+  .customers-logo{
+    padding:20px 0;
+    margin: 0 20px;
+  }
+  /* FORM */
+  .cover-form{
+    padding: 40px 0;
+  }
+  /* FOOTER */
+  ul.navs-footer li {
+    text-align: center;
+  }
+  .block-right {
+      text-align: center;
+  }
+}
